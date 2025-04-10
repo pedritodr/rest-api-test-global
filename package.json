@@ -2,9 +2,10 @@
   "name": "rest-api-demo",
   "version": "1.0.0",
   "main": "index.js",
+  "Debug": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./main.js localhost 3000"
+    "start": "nodemon main.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,7 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
-    "express": "^4.21.2",
+    "express": "^4.21.1",
     "nodemon": "^3.1.9"
   }
 }
